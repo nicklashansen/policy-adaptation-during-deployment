@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dm-control
+Version: 0.0.301472480
+Summary: Continuous control environments and MuJoCo Python bindings.
+Home-page: UNKNOWN
+Author: DeepMind
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: machine learning control physics MuJoCo AI
+Platform: UNKNOWN
+Provides-Extra: locomotion_mazes

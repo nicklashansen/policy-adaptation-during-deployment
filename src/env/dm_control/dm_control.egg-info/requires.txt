@@ -1,0 +1,21 @@
+absl-py>=0.7.0
+dm-env
+dm-tree!=0.1.2
+future
+glfw
+lxml
+numpy
+pyopengl>=3.1.4
+pyparsing
+setuptools
+scipy
+six
+
+[:python_version < "3.4"]
+enum34
+
+[:python_version == "2.7"]
+futures
+
+[locomotion_mazes]
+labmaze
