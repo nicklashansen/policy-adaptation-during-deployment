@@ -19,7 +19,7 @@ If you find our work useful in your research, please consider citing the paper a
   title={Self-Supervised Policy Adaptation during Deployment},
   author={Nicklas Hansen and Yu Sun and Pieter Abbeel and Alexei A. Efros and Lerrel Pinto and Xiaolong Wang},
   year={2020},
-  eprint={arXiv:2007.04309},
+  eprint={2007.04309},
   archivePrefix={arXiv},
   primaryClass={cs.LG}
 }
@@ -55,7 +55,7 @@ which should give you an output of the form
   ALOSS: 0.0000 | CLOSS: 0.0000 | RLOSS: 0.0000
 ```
 
-We provide a pre-trained model that can be used for evaluation. To run Policy Adapdation during Deployment, call
+We provide a pre-trained model that can be used for evaluation. To run Policy Adaptation during Deployment, call
 
 ```
 CUDA_VISIBLE_DEVICES=0 python3 src/eval.py \

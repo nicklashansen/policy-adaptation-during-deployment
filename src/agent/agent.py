@@ -150,7 +150,7 @@ class QFunction(nn.Module):
 
 
 class RotFunction(nn.Module):
-    """MLP for q-function."""
+    """MLP for rotation prediction."""
     def __init__(self, obs_dim, hidden_dim):
         super().__init__()
 
@@ -165,7 +165,7 @@ class RotFunction(nn.Module):
 
 
 class InvFunction(nn.Module):
-    """MLP for q-function."""
+    """MLP for inverse dynamics model."""
     def __init__(self, obs_dim, action_dim, hidden_dim):
         super().__init__()
 
@@ -181,6 +181,7 @@ class InvFunction(nn.Module):
 
 
 class CURL(nn.Module):
+    """Implements CURL, a contrastive learning method"""
     def __init__(self, obs_shape, z_dim, batch_size, critic, critic_target, output_type="continuous"):
         super(CURL, self).__init__()
         self.batch_size = batch_size
