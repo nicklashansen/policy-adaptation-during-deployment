@@ -3,7 +3,7 @@ PyTorch implementation of PAD and evaluation benchmarks from
 
 **Self-Supervised Policy Adaptation during Deployment**
 
-[Nicklas Hansen](https://nicklashansen.github.io/), [Yu Sun](https://yueatsprograms.github.io/), [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Lerrel Pinto](https://cs.nyu.edu/~lp91/#), [Xiaolong Wang](https://xiaolonw.github.io/)
+[Nicklas Hansen](https://nicklashansen.github.io/), [Rishabh Jangir](https://jangirrishabh.github.io/), [Yu Sun](https://yueatsprograms.github.io/), [Guillem Alenyà](http://www.iri.upc.edu/people/galenya/), [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Lerrel Pinto](https://cs.nyu.edu/~lp91/#), [Xiaolong Wang](https://xiaolonw.github.io/)
 
 [[Paper]](https://arxiv.org/abs/2007.04309) [[Website]](https://nicklashansen.github.io/PAD/)
 
@@ -17,7 +17,7 @@ If you find our work useful in your research, please consider citing the paper a
 ```
 @article{hansen2020deployment,
   title={Self-Supervised Policy Adaptation during Deployment},
-  author={Nicklas Hansen and Yu Sun and Pieter Abbeel and Alexei A. Efros and Lerrel Pinto and Xiaolong Wang},
+  author={Nicklas Hansen and Rishabh Jangir and Yu Sun and Guillem Alenyà and Pieter Abbeel and Alexei A. Efros and Lerrel Pinto and Xiaolong Wang},
   year={2020},
   eprint={2007.04309},
   archivePrefix={arXiv},
